@@ -1,0 +1,15 @@
+header{
+    border-bottom: 1px solid #aaa;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > div:last-child{
+    margin-right: 5px;
+}
+
+.containerModule{
+    padding: 10px 10px;
+}

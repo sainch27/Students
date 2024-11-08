@@ -1,0 +1,20 @@
+.formStudent{
+    padding: 20px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.75);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    justify-items: left;
+}
+
+input, label{
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+input[type=number]::-webkit-outer-spin-button, 
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    margin: 0;
+}

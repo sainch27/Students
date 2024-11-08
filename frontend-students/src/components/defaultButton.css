@@ -1,0 +1,9 @@
+.defaultButton{
+    text-decoration: none;
+    color: #fff;
+
+    border-width: 1px;
+    padding: 7px;
+    border-radius: 8px;
+    display: inline-block;
+}

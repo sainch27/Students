@@ -1,0 +1,49 @@
+.layout-root{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    font-size: 1rem;
+}
+
+.navBar .mainContent{
+    flex-grow: 1;
+}
+
+.mainContent{
+    width: 100%;
+}
+
+.navBar{
+    min-width: 200px;
+    background-color: darkturquoise;
+    padding-left: 20px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.75);
+}
+
+.navBar ul{
+    padding: 0;
+}
+
+.navBar li{
+    padding: 0;
+    list-style: none;
+}
+
+.navBar li:hover{
+    background-color: paleturquoise;
+}
+
+.navBar a{
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.navBar li:first-child{
+    border-top-left-radius: 5px;
+}
+
+.navBar li:last-child{
+    border-bottom-left-radius: 5px;
+}

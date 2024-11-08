@@ -1,0 +1,13 @@
+.navBar .navBar__activeItem{
+    padding-left: 10px;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.navBar li:first-child > .navBar__activeItem{
+    border-top-left-radius: 5px;
+}
+
+.navBar li:last-child > .navBar__activeItem{
+    border-bottom-left-radius: 5px;
+}

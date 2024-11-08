@@ -1,0 +1,41 @@
+div:has(>.search){
+    margin: 5px 0;
+    padding: 0;
+}
+
+div .search{
+    padding: 5px;
+    width: 15rem;
+    margin-right: 5px;
+}
+
+table{
+    border: 1px solid #0005;
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+    margin-bottom: 5px;
+}
+
+td, th{
+    border-bottom: 1px solid #0005;
+    border-right: 1px solid #0005;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+th{
+    text-align: center;
+}
+
+.pagesDiv{
+    text-align: end;
+}
+
+.numberRows{
+    padding: 5px;
+}
+
+.numberPages{
+    display: inline-block;
+}

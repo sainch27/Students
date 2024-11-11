@@ -13,8 +13,17 @@ input, label{
     padding: 5px;
 }
 
+.divInput{
+    width: 100%;
+}
+
+.divInput > span{
+    color: red;
+    font-weight: bolder;
+}
+
 input[type=number]::-webkit-outer-spin-button, 
 input[type=number]::-webkit-inner-spin-button { 
     -webkit-appearance: none;
-    margin: 0;
+    margin: 0; 
 }

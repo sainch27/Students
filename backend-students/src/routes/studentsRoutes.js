@@ -28,7 +28,6 @@ router.get('/:id', validateId, async (req, res) => {
 router.get('/:currentPage/:pageSize', validateNumberPagination,async (req, res) => {
     try {
         const students = await findWithPagination("", req.params.currentPage, req.params.pageSize);
-        console.log(req.params);
         res.json(students);
     } catch (error) {
         res.sendStatus(500);
@@ -38,7 +37,6 @@ router.get('/:currentPage/:pageSize', validateNumberPagination,async (req, res) 
 router.get('/:search/:currentPage/:pageSize', validateNumberPagination,async (req, res) => {
     try {
         const students = await findWithPagination(req.params.search, req.params.currentPage, req.params.pageSize);
-        console.log(req.params);
         res.json(students);
     } catch (error) {
         res.sendStatus(500);
@@ -55,7 +53,6 @@ router.post('/', validateBody, async (req, res) => {
         }
     }
     catch(error){
-        console.log('hola')
         res.sendStatus(500);
     }
 });

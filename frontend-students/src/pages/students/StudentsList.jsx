@@ -54,7 +54,6 @@ const Students = () => {
         method: 'DELETE',
       });
       const data = await response.json();
-      console.log(data.message);
       alert(`${data.message}`);
     }catch(e){
       console.error(e);

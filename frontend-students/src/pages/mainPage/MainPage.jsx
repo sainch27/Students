@@ -7,6 +7,7 @@ const MainPage = () => {
     <>
       <PageContent pageTitle='Página Principal'>
           <ModuleOption nameItem='Alumnos' routeItem='/students'/>
+          <ModuleOption nameItem='Materias' routeItem='/subjects'/>
       </PageContent>
     </>
   );

@@ -1,5 +1,5 @@
 import { json, useNavigate } from 'react-router-dom'
-import PageContent from "../../components/PageContent.jsx";
+import PageContent from '../../components/pageContent.jsx';
 import DefaultButton from "../../components/DefaultButton.jsx";
 import './studentsAdd.css'
 

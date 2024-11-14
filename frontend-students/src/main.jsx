@@ -6,6 +6,8 @@ import Layout from './layout/Layout.jsx'
 import MainPage from './pages/mainPage/mainPage.jsx'; 
 import StudentsList from './pages/students/StudentsList.jsx';
 import StudentsAdd from './pages/students/StudentsAdd.jsx';
+import Subjetcts from './pages/subjects/Subjects.jsx';
+import SubjetctAdd from './pages/subjects/SubjectsAdd.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
       {
         path: "/students/add",
         element: <StudentsAdd/>
+      },
+      {
+        path: "/subjects",
+        element: <Subjetcts/>
+      },
+      {
+        path: "/subjects/add",
+        element: <SubjetctAdd/>
       }
     ]
   }

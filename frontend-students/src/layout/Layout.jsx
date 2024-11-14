@@ -18,6 +18,10 @@ const App = () => {
             <li>
                 <NavItem routeItem='/students' nameItem='Alumnos'/>
             </li>
+
+            <li>
+                <NavItem routeItem='/subjects' nameItem='Materias'/>
+            </li>
           </ul>
         </aside>
           

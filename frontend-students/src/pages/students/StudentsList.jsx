@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react'
 import {useNavigate} from 'react-router-dom'
-import PageContent from '../../components/PageContent.jsx';
+import PageContent from '../../components/pageContent.jsx';
 import DefaultButton from '../../components/DefaultButton.jsx';
 import './studentsList.css'
 
@@ -92,7 +92,7 @@ const Students = () => {
             {
               !students.length && <p>No hay datos disponibles</p>
             }
-            <table>
+            <table className='tableComponent'>
               <thead>
                 <tr>
                   <th>Legajo</th>
@@ -109,6 +109,9 @@ const Students = () => {
                       <td>{student.firstname}</td>
                       <td>{student.lastname}</td>
                       <td>
+                      <DefaultButton
+                      color='darkturquoise'
+                      >Materias</DefaultButton>
                         <DefaultButton color='red'
                         onClick={() => {
                           const confimation = confirm(`Eliminar estudiante de id ${student.id}?`);
@@ -118,6 +121,7 @@ const Students = () => {
                         }}>
                           Borrar
                         </DefaultButton>
+                        
                       </td>
                     </tr>
                   ))
